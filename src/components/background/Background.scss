@@ -1,0 +1,12 @@
+// Background.scss
+.background-container {
+    position: relative;
+  }
+  
+  .background-images {
+    position: relative;
+    height: 100vh; 
+    background: url('../../../public/images/background.png') center/cover no-repeat, 
+                url('../../../public/images/indexBackground.png') center/cover no-repeat;
+  }
+  

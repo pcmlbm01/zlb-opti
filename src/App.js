@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ZlbIndex from './pages/zlbindex/ZlbIndex';
+import Home from './pages/home/Home';
+import About from './pages/about/About';
+import Result from './pages/result/Result';
+import Buy from './pages/buy/Buy';
+import Other from './pages/other/Other';
+import ErrorPage from './pages/error/Error';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<ZlbIndex />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/result" element={<Result />} />
+        <Route path="/buy" element={<Buy />} />
+        <Route path="/other" element={<Other />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,42 @@
+// Header.scss
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+  padding: 10px 20px;
+  background: rgba(0,0,0,0);
+
+  .header_logo {
+    
+  }
+
+  .header_navbar {
+    flex: 1; 
+    padding-left: 40%;
+
+    @media (max-width: 768px) {
+      padding-left: 10px; 
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin-right: 20px; 
+
+        a {
+          text-decoration: none;
+          color: #e11515; 
+          font-weight: bold;
+
+          &:hover {
+            color: yellow; 
+          }
+        }
+      }
+    }
+  }
+}
