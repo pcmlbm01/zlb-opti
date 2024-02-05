@@ -1,20 +1,17 @@
 // ZlbIndex.scss
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-image: url('../../../public/images/indexBackground.png'); /* Remplacez par le nom de votre image de fond */
-    background-size: cover; /* Ajuste la taille de l'image de fond pour couvrir tout le conteneur */
-    background-position: center; /* Centre l'image de fond */
-    background-repeat: no-repeat; /* Empêche la répétition de l'image de fond */
-  }
-  
-  .logo {
-    width: 100%;
-    height: auto;
-    max-width: 600px;
-    filter: hue-rotate(90deg);
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}

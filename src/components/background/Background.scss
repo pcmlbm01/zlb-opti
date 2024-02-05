@@ -1,12 +1,20 @@
-// Background.scss
 .background-container {
-    position: relative;
+  position: relative;
+}
+
+.background-images {
+  position: relative;
+  height: 100vh; 
+  background: 
+    url('../../../src/images/backgroundLeft.png') left/cover no-repeat, 
+    url('../../../src/images/backgroundRight.png') right/cover no-repeat, 
+    url('../../../src/images/indexBackground.png') center/cover no-repeat;
+
+  @media (max-width: 768px) {
+    .background-left {
+      margin-left: 100px; // Ajoutez le style spécifique pour l'image backgroundLeft
+    }
   }
-  
-  .background-images {
-    position: relative;
-    height: 100vh; 
-    background: url('../../../public/images/background.png') center/cover no-repeat, 
-                url('../../../public/images/indexBackground.png') center/cover no-repeat;
-  }
-  
+
+  // Ajoutez d'autres styles supplémentaires si nécessaire
+}
