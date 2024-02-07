@@ -5,6 +5,9 @@ import './Background.scss';
 const Background = ({ children }) => {
   return (
     <div className="background-container">
+      <div className="copyright">
+        &copy; 2024 ZLBopti. Tous droits réservés.
+      </div>
       <div className="background-images">
         {children}
       </div>

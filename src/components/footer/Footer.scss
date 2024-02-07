@@ -7,17 +7,15 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 10px 20px;
-  background: rgba(0,0,0,0);
-
-  .footer-copyright {
-    font-weight: bold;
-    color: white;
-  }
+  padding: 65px;
 
   .footer-links {
     flex: 1;
-    padding-left: 30%;
+    padding-left: 22.8%;
+    font-weight: 900;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 
     @media (max-width: 768px) {
       padding-left: 10px;
@@ -25,12 +23,12 @@
 
     a {
       text-decoration: none;
-      color: #c42828;
+      color: white;
       font-weight: bold;
-      margin-right: 20px;
+      margin-right: 57px;
 
       &:hover {
-        color: yellow;
+        color: rgb(155, 155, 155);
       }
     }
   }

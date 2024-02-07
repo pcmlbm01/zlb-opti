@@ -5,13 +5,34 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-image: url('../../../src/images/indexBackground.png'); /* Remplacez par le nom de votre image de fond */
+  background-size: cover; /* Ajuste la taille de l'image de fond pour couvrir tout le conteneur */
+  background-position: center; /* Centre l'image de fond */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image de fond */
 }
 
 .logo {
   width: 100%;
   height: auto;
   max-width: 600px;
+  filter: hue-rotate(90deg);
 }
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; 
+  z-index: 1;
+}
+
+.indexH1 {
+  display: none;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+

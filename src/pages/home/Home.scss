@@ -1,11 +1,35 @@
+/* Home.scss */
+.leftContentIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0%;
+    top: -5%;
+    padding: 5px;
+    width: 10%;
 
-    h1 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #fff; 
-      z-index: 1;
-    }
-  
-  
+}
+
+.leftContentIcon i {
+    background: linear-gradient(-80deg, #4a00e0, #8e2de2); 
+    -webkit-background-clip: text;
+    color: transparent; 
+    font-size: 20vh; 
+    margin: 5px; 
+    display: inline-block; 
+}
+
+.leftContent .button-play {
+    background: linear-gradient(100deg, #4a00e0, #8e2de2); 
+    -webkit-background-clip: text;
+    color: transparent; 
+    position: absolute;
+    left: 18.3%;
+    top: 41.1%;
+    font-size: 13vh; 
+}
+
+.leftContent .button-play:hover {
+    scale: 1.1;
+}

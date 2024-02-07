@@ -1,20 +1,27 @@
+// Background.scss
 .background-container {
   position: relative;
+  overflow: hidden;
+  background-color: #101923; 
 }
 
 .background-images {
   position: relative;
-  height: 100vh; 
+  height: 100vh;
   background: 
-    url('../../../src/images/backgroundLeft.png') left/cover no-repeat, 
-    url('../../../src/images/backgroundRight.png') right/cover no-repeat, 
-    url('../../../src/images/indexBackground.png') center/cover no-repeat;
+    url('../../../src/images/home/backgroundLeft.png') center/cover no-repeat, 
+    url('../../../src/images/home/backgroundRight.png') right/cover no-repeat, 
+    url('../../../src/images/home/background.png') center/cover no-repeat, 
+}
 
-  @media (max-width: 768px) {
-    .background-left {
-      margin-left: 100px; // Ajoutez le style spécifique pour l'image backgroundLeft
-    }
-  }
-
-  // Ajoutez d'autres styles supplémentaires si nécessaire
+.copyright {
+  color: #6C17E1;
+  position: absolute;
+  font-weight: 600;
+  letter-spacing: 3px;
+  right: 0;
+  top: 21%;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  z-index: 999;
 }
