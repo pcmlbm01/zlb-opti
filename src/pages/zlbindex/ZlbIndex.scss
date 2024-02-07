@@ -59,9 +59,25 @@ h1 {
   left: 18.3%;
   top: 41.1%;
   font-size: 13vh;
-  cursor: pointer;
 
   &:hover {
     transform: scale(1.1);
   }
+}
+
+[class^="close-button"] {
+  position: absolute;
+  left: 18.3%;
+  top: 41.1%;
+  font-size: 13vh;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+
+
+.fa-circle-play {
+  cursor: pointer;
 }

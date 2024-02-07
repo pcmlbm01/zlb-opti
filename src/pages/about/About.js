@@ -1,28 +1,58 @@
-// About.js
-import React from 'react';
+// about.js
+import React, { useState } from 'react';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 import Background from '../../components/background/Background';
+import Modal from '../../components/modal/Modal'; 
 import './About.scss';
 
 const About = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
+  const handlePlayButtonClick = () => {
+    openModal();
+  };
+
   return (
     <Background pageClassName="background-images-about">
       <Header />
       <h1>about</h1>
       <div className='leftContent-about'>
         <div className='leftContentIcon-about'>
-          <i class="fa-solid fa-user"></i>
-          <i class="fa-solid fa-wand-magic-sparkles"></i>
-          <i class="fa-solid fa-bomb"></i>
-          <i class="fa-solid fa-calendar-days"></i>
-          <i class="fa-solid fa-circle-info"></i>
+          <i className="fa-solid fa-bolt"></i>
+          <i className="fa-solid fa-bug-slash"></i>
+          <i className="fa-solid fa-heart"></i>
+          <i className="fa-solid fa-hand"></i>
+          <i className="fa-solid fa-gamepad"></i>
         </div>
-        <div className='button-play-about'>
-          <i class="fa-solid fa-circle-play"></i>
-        </div>
+        {!isModalOpen && (
+          <div className='button-play-about' onClick={handlePlayButtonClick}>
+            <i className="fa-solid fa-circle-play"></i>
+          </div>
+        )}
       </div>
       <Footer />
+
+      {/* Modal component */}
+      <Modal isOpen={isModalOpen} onClose={closeModal} pageClassName="close-button-about">
+        {/* Content inside the modal */}
+        <iframe
+          title="YouTube video player"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/zwL-r78BEdg"
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
+      </Modal>
     </Background>
   );
 };
