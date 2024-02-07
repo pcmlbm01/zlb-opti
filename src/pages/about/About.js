@@ -9,8 +9,19 @@ const About = () => {
   return (
     <Background pageClassName="background-images-about">
       <Header />
-      <h1>About</h1>
-      {/* Ajoutez le contenu spécifique à la page ici */}
+      <h1>about</h1>
+      <div className='leftContent-about'>
+        <div className='leftContentIcon-about'>
+          <i class="fa-solid fa-house"></i>
+          <i class="fa-solid fa-bug-slash"></i>
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          <i class="fa-solid fa-chart-simple"></i>
+          <i class="fa-solid fa-gamepad"></i>
+        </div>
+        <div className='button-play-about'>
+          <i class="fa-solid fa-circle-play"></i>
+        </div>
+      </div>
       <Footer />
     </Background>
   );

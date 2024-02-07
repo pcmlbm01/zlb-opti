@@ -46,12 +46,11 @@
 }
 
 .copyright {
-  color: #6C17E1;
+  color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  font-weight: 600;
-  letter-spacing: 3px;
+  font-weight: 300;
   right: 0;
-  top: 21%;
+  top: 0;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   z-index: 999;
