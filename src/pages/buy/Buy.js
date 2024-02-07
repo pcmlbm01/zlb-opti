@@ -12,11 +12,11 @@ const Buy = () => {
       <h1>buy</h1>
       <div className='leftContent-buy'>
         <div className='leftContentIcon-buy'>
-          <i class="fa-solid fa-house"></i>
-          <i class="fa-solid fa-bug-slash"></i>
-          <i class="fa-solid fa-fire-flame-curved"></i>
-          <i class="fa-solid fa-chart-simple"></i>
-          <i class="fa-solid fa-gamepad"></i>
+        <i class="fa-solid fa-money-bill-wave"></i>
+          <i class="fa-solid fa-clipboard"></i>
+          <i class="fa-solid fa-filter"></i>
+          <i class="fa-solid fa-cash-register"></i>
+          <i class="fa-solid fa-desktop"></i>
         </div>
         <div className='button-play-buy'>
           <i class="fa-solid fa-circle-play"></i>

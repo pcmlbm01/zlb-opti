@@ -12,10 +12,10 @@ const Other = () => {
       <h1>other</h1>
       <div className='leftContent-other'>
         <div className='leftContentIcon-other'>
-          <i class="fa-solid fa-house"></i>
+        <i class="fa-solid fa-bolt"></i>
           <i class="fa-solid fa-bug-slash"></i>
-          <i class="fa-solid fa-fire-flame-curved"></i>
-          <i class="fa-solid fa-chart-simple"></i>
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-hand"></i>
           <i class="fa-solid fa-gamepad"></i>
         </div>
         <div className='button-play-other'>

@@ -12,11 +12,11 @@ const About = () => {
       <h1>about</h1>
       <div className='leftContent-about'>
         <div className='leftContentIcon-about'>
-          <i class="fa-solid fa-house"></i>
-          <i class="fa-solid fa-bug-slash"></i>
-          <i class="fa-solid fa-fire-flame-curved"></i>
-          <i class="fa-solid fa-chart-simple"></i>
-          <i class="fa-solid fa-gamepad"></i>
+          <i class="fa-solid fa-user"></i>
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <i class="fa-solid fa-bomb"></i>
+          <i class="fa-solid fa-calendar-days"></i>
+          <i class="fa-solid fa-circle-info"></i>
         </div>
         <div className='button-play-about'>
           <i class="fa-solid fa-circle-play"></i>
