@@ -7,7 +7,7 @@ import './About.scss';
 
 const About = () => {
   return (
-    <Background>
+    <Background pageClassName="background-images-about">
       <Header />
       <h1>About</h1>
       {/* Ajoutez le contenu spécifique à la page ici */}

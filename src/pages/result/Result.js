@@ -7,7 +7,7 @@ import './Result.scss';
 
 const Result = () => {
   return (
-    <Background>
+    <Background pageClassName="background-images-result">
       <Header />
       <h1>Result</h1>
       {/* Ajoutez le contenu spécifique à la page ici */}

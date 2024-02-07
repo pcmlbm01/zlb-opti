@@ -1,17 +1,48 @@
-// Background.scss
-.background-container {
-  position: relative;
-  overflow: hidden;
-  background-color: #101923; 
-}
-
-.background-images {
-  position: relative;
-  height: 100vh;
+.background-images-home {
   background: 
     url('../../../src/images/home/backgroundLeft.png') center/cover no-repeat, 
     url('../../../src/images/home/backgroundRight.png') right/cover no-repeat, 
-    url('../../../src/images/home/background.png') center/cover no-repeat, 
+    url('../../../src/images/home/background.png') center/cover no-repeat;
+    height: 100%;
+}
+
+.background-images-about {
+  background: 
+    url('../../../src/images/about/backgroundLeft.png') center/cover no-repeat, 
+    url('../../../src/images/about/backgroundRight.png') right/cover no-repeat, 
+    url('../../../src/images/about/background.png') center/cover no-repeat;
+    height: 100%;
+}
+
+.background-images-buy {
+  background: 
+    url('../../../src/images/buy/backgroundLeft.png') center/cover no-repeat, 
+    url('../../../src/images/buy/backgroundRight.png') right/cover no-repeat, 
+    url('../../../src/images/buy/background.png') center/cover no-repeat;
+    height: 100%;
+}
+
+.background-images-other {
+  background: 
+    url('../../../src/images/other/backgroundLeft.png') center/cover no-repeat, 
+    url('../../../src/images/other/backgroundRight.png') right/cover no-repeat, 
+    url('../../../src/images/other/background.png') center/cover no-repeat;
+    height: 100%;
+}
+
+.background-images-result {
+  background: 
+    url('../../../src/images/result/backgroundLeft.png') center/cover no-repeat, 
+    url('../../../src/images/result/backgroundRight.png') right/cover no-repeat, 
+    url('../../../src/images/result/background.png') center/cover no-repeat;
+    height: 100%;
+}
+
+.background-container{
+  position: relative;
+  overflow: hidden;
+  background-color: #101923; 
+  height: 100vh;
 }
 
 .copyright {

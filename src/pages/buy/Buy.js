@@ -7,7 +7,7 @@ import './Buy.scss';
 
 const Buy = () => {
   return (
-    <Background>
+    <Background pageClassName="background-images-buy">
       <Header />
       <h1>Buy</h1>
       {/* Ajoutez le contenu spécifique à la page ici */}

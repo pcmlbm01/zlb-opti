@@ -7,7 +7,7 @@ import './Other.scss';
 
 const Other = () => {
   return (
-    <Background>
+    <Background pageClassName="background-images-other">
       <Header />
       <h1>Other</h1>
       {/* Ajoutez le contenu spécifique à la page ici */}
