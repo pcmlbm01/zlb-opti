@@ -40,3 +40,29 @@
   }
   
 
+  [class^="leftContent"] [class^="button-play"] {
+    position: absolute;
+    left: 18.3%;
+    top: 41.1%;
+    font-size: 13vh;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  
+  [class^="close-button"] {
+    position: absolute;
+    left: 18.3%;
+    top: 41.1%;
+    font-size: 13vh;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+
+  

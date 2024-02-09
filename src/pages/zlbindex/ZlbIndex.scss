@@ -41,29 +41,7 @@
   }
 }
 
-[class^="leftContent"] [class^="button-play"] {
-  position: absolute;
-  left: 18.3%;
-  top: 41.1%;
-  font-size: 13vh;
-  transition: transform 0.3s ease;
 
-  &:hover {
-    transform: scale(1.1);
-  }
-}
-
-[class^="close-button"] {
-  position: absolute;
-  left: 18.3%;
-  top: 41.1%;
-  font-size: 13vh;
-  transition: transform 0.3s ease;
-
-  &:hover {
-    transform: scale(1.1);
-  }
-}
 
 .fa-circle-play {
   cursor: pointer;
@@ -105,13 +83,7 @@
   margin: 0;
   margin-top: 20px;
 }
-.rightContent em {
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: #FFFFFF;
-  background: #232323;
-  text-shadow: 0 0 3px #FFF, 0 0 6px #FFF;
-}
+
 
 .rightContent button {
   width: 15%;

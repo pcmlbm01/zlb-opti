@@ -48,19 +48,30 @@ const Buy = () => {
           <div class="list">
             <h2 className='displayNone'>Windows</h2>
             <i class="fa-brands fa-windows"></i>
-            <div className='listContent'>
-              <p className='service'>Installer un nouveau windows personnalisé* 20e</p>
+            <div className='listContentPlus'>
+              <p className='service'>Installer un nouveau windows personnalisé* <span>20e</span></p>
             </div>
             <div className='listContent'>
-              <p className='service'>Optimisation de windows existant pour le jeu 20e</p>
+              <p className='service'>Optimisation de windows existant pour le jeu <span>20e</span></p>
             </div>
           </div>
 
           <div class="list">
             <h2 className='displayNone'>Jeu</h2>
             <i class="fa-solid fa-gamepad"></i>
+            <div className='listContentPlus'>
+              <p className='service'>Optimisation d'un jeu en particulier* <span>20e</span></p>
+            </div>
+          </div>
+
+          <div class="list">
+            <h2 className='displayNone'>Autre</h2>
+            <i class="fa-solid fa-microchip"></i>
+            <div className='listContentPlus'>
+              <p className='service'>Conseil hardware* <span>20e</span></p>
+            </div>
             <div className='listContent'>
-              <p className='service'>Optimisation d'un jeu en particulier* 20e</p>
+              <p className='service'>Overclocking <span>20e</span></p>
             </div>
           </div>
 
@@ -68,29 +79,20 @@ const Buy = () => {
             <h2 className='displayNone'>Aide</h2>
             <i class="fa-solid fa-handshake"></i>
             <div className='listContent'>
-              <p className='service'>Nettoyer 20e</p>
+              <p className='service'>Nettoyer windows <span>20e</span></p>
             </div>
             <div className='listContent'>
-              <p className='service'>Config PC</p>
+              <p className='service'>Config PC <span>20e</span></p>
             </div>
             <div className='listContent'>
-              <p className='service'>Montage PC</p>
+              <p className='service'>Montage PC <span>20e</span></p>
             </div>
             <div className='listContent'>
-              <p className='service'>Esport/Compétitif</p>
+              <p className='service'>Esport/Compétitif <span>20e</span></p>
             </div>
           </div>
 
-          <div class="list">
-            <h2 className='displayNone'>Autre</h2>
-            <i class="fa-solid fa-microchip"></i>
-            <div className='listContent'>
-              <p className='service'>Overclocking</p>
-            </div>
-            <div className='listContent'>
-              <p className='service'>Conseil hardware</p>
-            </div>
-          </div>
+
 
           <div class="list">
             <h2 className='displayNone'>Devis</h2>
