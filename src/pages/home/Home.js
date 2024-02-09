@@ -42,7 +42,7 @@ const Home = () => {
 
       <div className='rightContent'>
         <div>
-          <h1>Optimisation Esport Ready</h1>
+          <h1>Optimisation <em>Esport Ready</em></h1>
         </div>
         <div className='cta-container'>
           <button className='cta-button' onClick={() => window.location.href='/buy'}>

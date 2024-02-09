@@ -84,7 +84,7 @@
 
 .rightContent {
   position: relative;
-  left: 33%;
+  left: 28%;
 }
 
 .rightContent .lists ul{
@@ -104,6 +104,13 @@
   font-size: xxx-large;
   margin: 0;
   margin-top: 20px;
+}
+.rightContent em {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  background: #232323;
+  text-shadow: 0 0 3px #FFF, 0 0 6px #FFF;
 }
 
 .rightContent button {

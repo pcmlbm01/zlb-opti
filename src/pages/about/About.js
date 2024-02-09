@@ -46,21 +46,21 @@ const About = () => {
             <h2 className='displayNone'>Personnel</h2>
             <i class="fa-solid fa-user"></i>
             <div className='listContent'>
-              <p>Je m'engage dans l'optimisation depuis une décennie, passionné par l'art de maximiser les performances. En tant que développeur web, j'ai créé ce site pour partager mes compétences et professionnaliser mes connaissances informatiques.</p>
+              <p>Je m'engage dans l'optimisation depuis une <span>décennie</span> et j'ai <span>optimisé plus de 500 pc</span>, passionné par l'<span>art de maximiser les performances</span>. En tant que développeur web, j'ai créé ce site pour partager mes compétences et professionnaliser mes connaissances d'optimisations.</p>
             </div>
           </div>
           <div class="list">
             <h2 className='displayNone'>SiteWeb</h2>
             <i class="fa-solid fa-display"></i>
             <div className='listContent'>
-              <p>Chaque page est accompagnée d'un bouton <bold>Play</bold> vous menant à une vidéo explicative. Découvrez mes prestations, leurs tarifs, ainsi que les résultats concrets de mes optimisations. Explorez également divers sujets informatiques.</p>
+              <p>Chaque page est accompagnée d'un bouton <i className="fa-solid fa-circle-play"></i> <bold>Play</bold> vous menant à une <span>vidéo explicative</span>. Découvrez mes prestations, leurs tarifs, ainsi que les résultats concrets de mes optimisations. Explorez également divers sujets informatiques.</p>
             </div>
           </div>
           <div class="list">
             <h2 className='displayNone'>Optimisation</h2>
             <i class="fa-solid fa-gears"></i>
             <div className='listContent'>
-              <p>Obtenez une stabilité accrue, des performances optimisées, une latence minimale, et une lisibilité améliorée. Bénéficiez d'une analyse approfondie des performances, demandez un devis personnalisé, et assurez-vous des gains de performance en toute sécurité.</p>
+              <p>Optimisez Windows avec une <span>quinzaine de sujets</span> et des <span>ajustements spécifiques pour les jeux</span>. Nous couvrons ce qui concerne <span>l'esport et la compétition</span>. Bénéficiez d'une <span>analyse approfondie des performances</span>, demandez un <span>devis personnalisé</span>, et <span>libérez le plein potentiel</span> de votre PC.</p>
             </div>
           </div>
         </div>
