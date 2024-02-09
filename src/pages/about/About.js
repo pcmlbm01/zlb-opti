@@ -24,7 +24,7 @@ const About = () => {
   return (
     <Background pageClassName="background-images-about">
       <Header />
-      <h1>about</h1>
+      <h1 className='displayNone'>Page "à propos"</h1>
       <div className='leftContent-about'>
         <div className='leftContentIcon-about'>
           <i className="fa-solid fa-bolt"></i>
@@ -39,6 +39,39 @@ const About = () => {
           </div>
         )}
       </div>
+
+      <div className='rightContent'>
+        <div>
+          <h1>Optimisation Esport Ready</h1>
+        </div>
+        <div className='lists'>
+          <div class="list">
+            <h2 className='displayNone'>Personnel</h2>
+            <i class="fa-solid fa-user"></i>
+            <div className='listContent'>
+              <button>qui suis je</button>
+              <button>pourquoi j'ai fais ce site</button>
+            </div>
+          </div>
+          <div class="list">
+            <h2 className='displayNone'>SiteWeb</h2>
+            <i class="fa-solid fa-display"></i>
+            <div className='listContent'>
+              <button>Button 1</button>
+              <button>Button 2</button>
+            </div>
+          </div>
+          <div class="list">
+            <h2 className='displayNone'>Optimisation</h2>
+            <i class="fa-solid fa-gears"></i>
+            <div className='listContent'>
+              <button>Button 1</button>
+              <button>Button 2</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <Footer />
 
       {/* Modal component */}

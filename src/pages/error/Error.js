@@ -9,8 +9,7 @@ const ErrorPage = () => {
   return (
     <Background>
       <Header />
-      <h1>Error Page</h1>
-      {/* Ajoutez le contenu spécifique à la page ici */}
+      <h1>Error</h1>
       <Footer />
     </Background>
   );

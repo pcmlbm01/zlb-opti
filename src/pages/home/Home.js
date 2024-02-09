@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <Background pageClassName="background-images-home">
       <Header />
-      <h1>home</h1>
+      <h1 className='displayNone'>Page d'acceuil</h1>
       <div className='leftContent-home'>
         <div className='leftContentIcon-home'>
           <i className="fa-solid fa-bolt"></i>
@@ -38,6 +38,60 @@ const Home = () => {
             <i className="fa-solid fa-circle-play"></i>
           </div>
         )}
+      </div>
+
+      <div className='rightContent'>
+        <div>
+          <h1>Optimisation Esport Ready</h1>
+        </div>
+        <div className='cta-container'>
+          <button className='cta-button' onClick={() => window.location.href='/buy'}>
+            Acheter
+          </button>
+          <button className='detail-button' onClick={() => window.location.href='/about'}>
+            En savoir plus
+          </button>
+        </div>
+        <div className='lists'>
+          <ul>
+            <li className='list'>
+              <i className="fa-solid fa-arrow-up-wide-short"></i>
+              <div className='listContent-large'>
+                <li>Performance</li>
+                <p>Gagner en image par seconde</p>
+              </div>
+            </li>
+            <li className='list'>
+              <i className="fa-solid fa-scale-balanced"></i>
+              <div className='listContent'>
+                <li>Stabilité</li>
+                <p>Expérience constante</p>
+              </div>
+            </li>
+            <li className='list'>
+              <i class="fa-solid fa-clock"></i>
+              <div className='listContent'>
+                <li>Latence</li>
+                <p>Réponse améliorée</p>
+              </div>
+            </li>
+            <li className='list'>
+              <i className="fa-solid fa-eye"></i>
+              <div className='listContent'>
+                <li>Lisibilité</li>
+                <p>Graphismes clairs</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button className='result-button' onClick={() => window.location.href='/result'}>
+            Résultats et avis
+          </button>
+          <button className='other-button' onClick={() => window.location.href='/other'}>
+            Mes sujets et autres
+          </button>
+        </div>
       </div>
       <Footer />
 

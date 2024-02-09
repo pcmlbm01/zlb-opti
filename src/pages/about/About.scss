@@ -30,3 +30,58 @@
     color: #FFA741;
 }
 
+
+
+
+
+
+
+
+.background-images-about .lists button {
+    width: auto;
+    margin-left: 20px;
+    padding: 3px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent; 
+    border-image: linear-gradient(100deg, #ffeb3b, #ff6347) 1; 
+}
+.background-images-about .lists button:hover {
+    background: linear-gradient(100deg, #ffeb3b, #ff6347); 
+    border: transparent 1px solid;
+    scale: 1.1;
+    color: black;
+}
+
+.background-images-about .lists h2 {
+    margin: 0;
+}
+
+.background-images-about .list {
+    align-items: center;
+    margin-bottom: 35px;
+    width: 50%;
+}
+
+.background-images-about .lists {
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 2%;
+}
+
+.background-images-about .list i {
+    background: #FFA741; 
+    background-clip: text;
+    color: transparent; 
+    font-size: 3em;
+    width: 60px;
+}
+
+
+
+
+
+
