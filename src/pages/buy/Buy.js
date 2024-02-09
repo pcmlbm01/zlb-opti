@@ -24,7 +24,7 @@ const Buy = () => {
   return (
     <Background pageClassName="background-images-buy">
       <Header />
-      <h1>buy</h1>
+      <h1 className='displayNone'>Page "tarif"</h1>
       <div className='leftContent-buy'>
         <div className='leftContentIcon-buy'>
           <i className="fa-solid fa-bolt"></i>
@@ -39,6 +39,78 @@ const Buy = () => {
           </div>
         )}
       </div>
+
+
+
+      <div className='rightContent'>
+        <div className='lists'>
+
+          <div class="list">
+            <h2 className='displayNone'>Windows</h2>
+            <i class="fa-brands fa-windows"></i>
+            <div className='listContent'>
+              <p className='service'>Installer un nouveau windows personnalisé* 20e</p>
+            </div>
+            <div className='listContent'>
+              <p className='service'>Optimisation de windows existant pour le jeu 20e</p>
+            </div>
+          </div>
+
+          <div class="list">
+            <h2 className='displayNone'>Jeu</h2>
+            <i class="fa-solid fa-gamepad"></i>
+            <div className='listContent'>
+              <p className='service'>Optimisation d'un jeu en particulier* 20e</p>
+            </div>
+          </div>
+
+          <div class="list">
+            <h2 className='displayNone'>Aide</h2>
+            <i class="fa-solid fa-handshake"></i>
+            <div className='listContent'>
+              <p className='service'>Nettoyer 20e</p>
+            </div>
+            <div className='listContent'>
+              <p className='service'>Config PC</p>
+            </div>
+            <div className='listContent'>
+              <p className='service'>Montage PC</p>
+            </div>
+            <div className='listContent'>
+              <p className='service'>Esport/Compétitif</p>
+            </div>
+          </div>
+
+          <div class="list">
+            <h2 className='displayNone'>Autre</h2>
+            <i class="fa-solid fa-microchip"></i>
+            <div className='listContent'>
+              <p className='service'>Overclocking</p>
+            </div>
+            <div className='listContent'>
+              <p className='service'>Conseil hardware</p>
+            </div>
+          </div>
+
+          <div class="list">
+            <h2 className='displayNone'>Devis</h2>
+            <i class="fa-solid fa-clipboard-list"></i>
+            <div className='listContent'>
+              <p>assurance/sécurité, comparatif avant apres, bundle possible</p>
+            </div>
+          </div>
+
+          <div className='footerLists'>
+            <p>*recommandé</p>
+          </div>
+          
+
+        </div>
+      </div>
+
+
+
+
       <Footer />
 
       {/* Modal component */}
