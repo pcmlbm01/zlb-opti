@@ -100,8 +100,8 @@ const Home = () => {
         {/* Content inside the modal */}
         <iframe
           title="YouTube video player"
-          width="560"
-          height="315"
+          width="860"
+          height="360"
           src="https://www.youtube.com/embed/zwL-r78BEdg"
           frameBorder="0"
           allowFullScreen
