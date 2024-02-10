@@ -2,3 +2,25 @@
 .content-images-other {
     filter: hue-rotate(180deg); 
 }
+
+.content-images-other .listContent a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+    border: 5px solid transparent;
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border: 5px solid transparent;
+    border-image: linear-gradient(-45deg, #3366cc, #33cc99) 1;
+    padding: 50px;
+    letter-spacing: 1px;
+}
+
+.content-images-other .rightContent .list:first-child{
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 120px;
+}
+

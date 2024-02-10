@@ -1,4 +1,4 @@
-// Other.js
+// other.js
 import React, { useState } from 'react';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
@@ -24,7 +24,7 @@ const Other = () => {
   return (
     <Content pageClassName="content-images-other">
       <Header />
-      <h1>🚧</h1>
+      <h1 className='displayNone'>Page "résulats"</h1>
       <div className='leftContent-other'>
         {!isModalOpen && (
           <div className='button-play-other' onClick={handlePlayButtonClick}>
@@ -32,6 +32,26 @@ const Other = () => {
           </div>
         )}
       </div>
+
+      <div className='rightContent'>
+        <div className='lists'>
+          <div className="list">
+            <h2 className='displayNone'>Lien</h2>
+            <i className="fa-solid fa-link"></i>
+            <div className='listContent'>
+              <a href="https://drive.google.com/drive/folders/1bZpkdY4PPMgJwhU7mLRkheT49-_rkrdU?usp=drive_link" target="_blank" rel='noreferrer'>Cliquez ici pour ouvrir les sujets</a>
+            </div>
+          </div>
+          <div className="list">
+            <h2 className='displayNone'>SiteWeb</h2>
+            <i className="fa-solid fa-circle-info"></i>
+            <div className='listContent'>
+              <p>Sur cette page, découvrez les autres sujets que j'aborde, tous les liens externes liés à Zlbopti et nos optimisations, ainsi que toutes les vidéos et tutoriels associés au site.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <Footer />
 
       {/* Modal component */}

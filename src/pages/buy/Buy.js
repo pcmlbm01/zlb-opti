@@ -38,28 +38,28 @@ const Buy = () => {
       <div className='rightContent'>
         <div className='lists'>
 
-          <div class="list">
+          <div className="list">
             <h2 className='displayNone'>Windows</h2>
-            <i class="fa-brands fa-windows"></i>
+            <i className="fa-brands fa-windows"></i>
             <div className='listContentPlus'>
-              <p className='service'>Installer un nouveau windows personnalisé* <span>40€</span></p>
+              <p className='service'>Installer un nouveau windows personnalisé<span>* 40€</span></p>
             </div>
             <div className='listContent'>
-              <p className='service'>Optimisation de windows existant pour le jeu <span>30€</span></p>
+              <p className='service'>Optimisation de windows existant pour le jeu<span>* 30€</span></p>
             </div>
           </div>
 
-          <div class="list">
+          <div className="list">
             <h2 className='displayNone'>Jeu</h2>
-            <i class="fa-solid fa-gamepad"></i>
+            <i className="fa-solid fa-gamepad"></i>
             <div className='listContentPlus'>
-              <p className='service'>Optimisation d'un jeu en particulier* <span>20€</span></p>
+              <p className='service'>Optimisation d'un jeu en particulier<span>* 20€</span></p>
             </div>
           </div>
 
-          <div class="list">
+          <div className="list">
             <h2 className='displayNone'>Autre</h2>
-            <i class="fa-solid fa-microchip"></i>
+            <i className="fa-solid fa-microchip"></i>
             <div className='listContentPlus'>
               <p className='service'>Conseil hardware* <span>20€</span></p>
             </div>
@@ -68,14 +68,14 @@ const Buy = () => {
             </div>
           </div>
 
-          <div class="list">
+          <div className="list">
             <h2 className='displayNone'>Aide</h2>
-            <i class="fa-solid fa-handshake"></i>
+            <i className="fa-solid fa-handshake"></i>
             <div className='listContent'>
               <p className='service'>Nettoyer windows <span>20€</span></p>
             </div>
             <div className='listContent'>
-              <p className='service'>Config PC <span><i class="fa-solid fa-arrow-pointer"></i></span></p>
+              <p className='service'>Config PC <span><i className="fa-solid fa-arrow-pointer"></i></span></p>
             </div>
             <div className='listContent'>
               <p className='service'>Montage PC <span>20€</span></p>
@@ -87,11 +87,11 @@ const Buy = () => {
 
 
 
-          <div class="list">
+          <div className="list">
             <h2 className='displayNone'>Devis</h2>
-            <i class="fa-solid fa-clipboard-list"></i>
+            <i className="fa-solid fa-clipboard-list"></i>
             <div className='listContent'>
-              <p>assurance/sécurité, comparatif avant apres, bundle possible, *recommandé</p>
+              <p>assurance/sécurité, comparatif avant apres, bundle possible, <span>*recommandé</span></p>
             </div>
           </div>
           

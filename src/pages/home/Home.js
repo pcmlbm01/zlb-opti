@@ -50,28 +50,28 @@ const Home = () => {
             <li className='list'>
               <i className="fa-solid fa-arrow-up-wide-short"></i>
               <div className='listContent-large'>
-                <li>Performance</li>
+                <h2>Performance</h2>
                 <p>Gagner en image par seconde</p>
               </div>
             </li>
             <li className='list'>
               <i className="fa-solid fa-scale-balanced"></i>
               <div className='listContent'>
-                <li>Stabilité</li>
+                <h2>Stabilité</h2>
                 <p>Expérience constante</p>
               </div>
             </li>
             <li className='list'>
-              <i class="fa-solid fa-clock"></i>
+              <i className="fa-solid fa-clock"></i>
               <div className='listContent'>
-                <li>Latence</li>
+                <h2>Latence</h2>
                 <p>Réponse améliorée</p>
               </div>
             </li>
             <li className='list'>
               <i className="fa-solid fa-eye"></i>
               <div className='listContent'>
-                <li>Lisibilité</li>
+                <h2>Lisibilité</h2>
                 <p>Graphismes clairs</p>
               </div>
             </li>
@@ -93,8 +93,8 @@ const Home = () => {
         {/* Content inside the modal */}
         <iframe
           title="YouTube video player"
-          width="860"
-          height="360"
+          width="560"
+          height="315"
           src="https://www.youtube.com/embed/zwL-r78BEdg"
           frameBorder="0"
           allowFullScreen

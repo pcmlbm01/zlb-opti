@@ -58,8 +58,11 @@ $button-size: 33%;
 .content-images-home .lists {
   margin: 80px 0 35px 0;
 
-  .list li {
+  .list h2 {
     text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
   }
 
   p {
