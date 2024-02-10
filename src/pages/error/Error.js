@@ -2,16 +2,16 @@
 import React from 'react';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
-import Background from '../../components/background/Background';
+import Content from '../../components/content/Content';
 import './Error.scss';
 
 const ErrorPage = () => {
   return (
-    <Background>
+    <Content>
       <Header />
       <h1>Error</h1>
       <Footer />
-    </Background>
+    </Content>
   );
 };
 

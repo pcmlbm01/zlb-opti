@@ -1,12 +1,12 @@
-// Background.js
+// Content.js
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Background.scss';
+import './Content.scss';
 
-const Background = ({ children, pageClassName }) => {
+const Content = ({ children, pageClassName }) => {
   return (
-    <div className={`background-container`}>
-      <div className={`background-images ${pageClassName}`}>
+    <div className={`content-container`}>
+      <div className={`content-images ${pageClassName}`}>
         {children}
       </div>
       <div className="copyright">
@@ -16,8 +16,8 @@ const Background = ({ children, pageClassName }) => {
   );
 };
 
-Background.propTypes = {
+Content.propTypes = {
   pageClassName: PropTypes.string.isRequired,
 };
 
-export default Background;
+export default Content;

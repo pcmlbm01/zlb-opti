@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
-import Background from '../../components/background/Background';
+import Content from '../../components/content/Content';
 import Modal from '../../components/modal/Modal'; 
 import './Result.scss';
 
@@ -22,7 +22,7 @@ const Result = () => {
   };
 
   return (
-    <Background pageClassName="background-images-result">
+    <Content pageClassName="content-images-result">
       <Header />
       <h1>result</h1>
       <div className='leftContent-result'>
@@ -46,7 +46,7 @@ const Result = () => {
           allowFullScreen
         ></iframe>
       </Modal>
-    </Background>
+    </Content>
   );
 };
 

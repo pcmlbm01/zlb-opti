@@ -1,13 +1,13 @@
 /* Home.scss */
 
 //style specifique a la page
-.background-images-home .cta-button {
+.content-images-home .cta-button {
     text-transform: uppercase;
     padding: 15px;
     color: #fff; 
     background-color: transparent;
     border: 5px solid transparent; 
-    border-image: linear-gradient(135deg, #00ff00, #0000ff) 1;
+    border-image: linear-gradient(135deg, #3366cc, #33cc99) 1;
     border-radius: 20px; 
     width: 33%;
     margin-left: 2%;
@@ -15,20 +15,20 @@
     font-weight: 700;
     cursor: pointer;
 }
-.background-images-home .cta-button:hover {
-    background: linear-gradient(135deg, #00ff00, #0000ff);
+.content-images-home .cta-button:hover {
+    background: linear-gradient(135deg, #3366cc, #33cc99);
     border: transparent;
     scale: 1.3;
 }
 
 
-.background-images-home .detail-button {
+.content-images-home .detail-button {
     text-transform: uppercase;
     padding: 15px;
     color: #fff; 
     background-color: transparent;
     border: 5px solid transparent; 
-    border-image: linear-gradient(-45deg, #00ff00, #0000ff) 1;
+    border-image: linear-gradient(-45deg, #3366cc, #33cc99) 1;
     border-radius: 20px; 
     margin-left: 20px;
     width: 33%;
@@ -36,22 +36,22 @@
     font-weight: 700;
     cursor: pointer;
 }
-.background-images-home .detail-button:hover {
+.content-images-home .detail-button:hover {
     border: transparent;
     scale: 1.3;
-    background: linear-gradient(-45deg, #00ff00, #0000ff);
+    background: linear-gradient(-45deg, #3366cc, #33cc99);
 }
 
 
-.background-images-home .lists {
+.content-images-home .lists {
     margin: 80px 0 35px 0;
 }
 
-.background-images-home .list li {
+.content-images-home .list li {
     text-transform: uppercase;
 }
 
-.background-images-home .lists p {
+.content-images-home .lists p {
     margin: 0;
     font-size: 0.7em;
     color: grey;
@@ -61,7 +61,7 @@
     background-color: transparent;
 }
 
-.background-images-home .listContent-large p {
+.content-images-home .listContent-large p {
     width: 100px;
 }
 
@@ -75,11 +75,11 @@
     text-shadow: 0 0 3px #FFF, 0 0 6px #FFF;
   }
 
-  .background-images-home .rightContent {
+  .content-images-home .rightContent {
     left: 29.5%;
   }
 
-  .background-images-home .rightContent .list{
+  .content-images-home .rightContent .list{
     margin-right: 37px;
   }
 
@@ -87,7 +87,7 @@
 
 
 
-.background-images-home .result-button {
+.content-images-home .result-button {
     text-transform: uppercase;
     padding: 10px;
     color: #fff; 
@@ -98,7 +98,7 @@
     cursor: pointer;
     width: 25%;
 }
-.background-images-home .result-button:hover {
+.content-images-home .result-button:hover {
     border: transparent;
     transform: scale(1.3);
 }
@@ -106,7 +106,7 @@
 
 
 
-.background-images-home .other-button {
+.content-images-home .other-button {
     text-transform: uppercase;
     padding: 10px;
     color: #fff; 
@@ -117,7 +117,7 @@
     cursor: pointer;
     width: 25%;
 }
-.background-images-home .other-button:hover {
+.content-images-home .other-button:hover {
     border: transparent;
     transform: scale(1.3);
 }

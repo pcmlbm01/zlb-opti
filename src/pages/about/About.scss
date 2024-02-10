@@ -1,36 +1,36 @@
 /* about.scss */
-.background-images-about .lists bold {
+.content-images-about .lists bold {
     color: grey;
 }
 
-.background-images-about .lists p:hover {
+.content-images-about .lists p:hover {
     color: white;
 }
 
-.background-images-about .lists h2 {
+.content-images-about .lists h2 {
     margin: 0;
 }
 
-.background-images-about p span {
+.content-images-about p span {
     color: white;
 }
 
-.background-images-about {
+.content-images-about {
       filter: hue-rotate(45deg); 
   }
 
   
-.background-images-about .fa-user:before {
+.content-images-about .fa-user:before {
     display: block;
     width: 60px;
     display: block;
 }
-.background-images-about .fa-display:before {
+.content-images-about .fa-display:before {
     display: block;
     width: 60px;
     display: block;
 }
-.background-images-about .fa-gear:before {
+.content-images-about .fa-gear:before {
     display: block;
     width: 60px;
     display: block;

@@ -1,25 +1,25 @@
 /* buy.scss */
-.background-images-buy .listContentPlus p {
+.content-images-buy .listContentPlus p {
     border: 3px solid transparent; 
-    border-image: linear-gradient(135deg, #00ff00, #0000ff) 1;
+    border-image: linear-gradient(135deg, #3366cc, #33cc99) 1;
     color: white;
     font-weight: 600;
 }
 
-.background-images-buy .rightContent * {
+.content-images-buy .rightContent * {
     padding: 0;
     margin: 0;
     align-items: center;
 }
 
-.background-images-buy .list p {
+.content-images-buy .list p {
     margin: 10px;
 }
 
-.background-images-buy span {
+.content-images-buy p span{
     color: #008080;
 }
 
-.background-images-buy {
+.content-images-buy {
     filter: hue-rotate(90deg); 
 }

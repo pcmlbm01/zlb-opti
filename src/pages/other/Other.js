@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
-import Background from '../../components/background/Background';
+import Content from '../../components/content/Content';
 import Modal from '../../components/modal/Modal'; 
 import './Other.scss';
 
@@ -22,7 +22,7 @@ const Other = () => {
   };
 
   return (
-    <Background pageClassName="background-images-other">
+    <Content pageClassName="content-images-other">
       <Header />
       <h1>other</h1>
       <div className='leftContent-other'>
@@ -46,7 +46,7 @@ const Other = () => {
           allowFullScreen
         ></iframe>
       </Modal>
-    </Background>
+    </Content>
   );
 };
 

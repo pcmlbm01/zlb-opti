@@ -1,7 +1,7 @@
 // ZlbIndex.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './ZlbIndex.scss'; // Importer le fichier de style
+import './ZlbIndex.scss';
 
 const ZlbIndex = () => {
   return (

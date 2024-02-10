@@ -1,4 +1,4 @@
-.background-images {
+.content-images {
   background: 
     url('../../../src/images/background/backgroundLeft.png') center/cover no-repeat, 
     url('../../../src/images/background/backgroundRight.png') right/cover no-repeat, 
@@ -6,7 +6,7 @@
     height: 100%;
 }
 
-.background-container{
+.content-container{
   position: relative;
   overflow: hidden;
   height: 100vh;
@@ -24,37 +24,37 @@
 }
 
 
-.background-images .lists i {
-  background: linear-gradient(135deg, #00ff00, #0000ff); 
+.content-images .lists i {
+  background: linear-gradient(135deg, #3366cc, #33cc99); 
 }
 
-.background-images .result-button {
+.content-images .result-button {
   background-color: transparent;
   border: 1px solid transparent;  
-  border-image: linear-gradient(-45deg, #00ff00, #0000ff) 1;
+  border-image: linear-gradient(-45deg, #3366cc, #33cc99) 1;
 }
-.background-images .result-button:hover {
-  background: linear-gradient(-45deg, #00ff00, #0000ff); 
+.content-images .result-button:hover {
+  background: linear-gradient(-45deg, #3366cc, #33cc99); 
 }
 
-.background-images .other-button {
+.content-images .other-button {
   background-color: transparent;
   border: 1px solid transparent;  
-  border-image: linear-gradient(135deg, #00ff00, #0000ff) 1;
+  border-image: linear-gradient(135deg, #3366cc, #33cc99) 1;
 }
-.background-images .other-button:hover {
-  background: linear-gradient(135deg, #00ff00, #0000ff); 
+.content-images .other-button:hover {
+  background: linear-gradient(135deg, #3366cc, #33cc99); 
 }
 
 
 
-.background-images .listContent p i {
+.content-images .listContent p i {
   font-size: 1em;
   width: auto;
   margin-right: 0px;
 }
 
-.background-images .lists i {
+.content-images .lists i {
   font-size: 3em;
   align-self: center;
   margin-right: 10px;
@@ -86,14 +86,14 @@
   display: flex;
 }
 
-.background-images .lists p {
+.content-images .lists p {
 
   margin-left: 20px;
   padding: 12px 20px;
   font-size: 16px;
   background-color: transparent;
   border: 1px solid transparent; 
-  border-image: linear-gradient(-45deg, #00ff00, #0000ff) 1;
+  border-image: linear-gradient(-45deg, #3366cc, #33cc99) 1;
   background-color: rgba($color: #000000, $alpha: 0.5);
   color: lightgray;
 }

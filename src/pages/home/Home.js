@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
-import Background from '../../components/background/Background';
+import Content from '../../components/content/Content';
 import Modal from '../../components/modal/Modal'; 
 import './Home.scss';
 
@@ -22,7 +22,7 @@ const Home = () => {
   };
 
   return (
-    <Background pageClassName="background-images-home">
+    <Content pageClassName="content-images-home">
       <Header />
       <h1 className='displayNone'>Page d'acceuil</h1>
       <div className='leftContent-home'>
@@ -100,7 +100,7 @@ const Home = () => {
           allowFullScreen
         ></iframe>
       </Modal>
-    </Background>
+    </Content>
   );
 };
 

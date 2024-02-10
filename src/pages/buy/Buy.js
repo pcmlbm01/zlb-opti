@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
-import Background from '../../components/background/Background';
+import Content from '../../components/content/Content';
 import Modal from '../../components/modal/Modal'; 
 import './Buy.scss';
 
@@ -22,7 +22,7 @@ const Buy = () => {
   };
 
   return (
-    <Background pageClassName="background-images-buy">
+    <Content pageClassName="content-images-buy">
       <Header />
       <h1 className='displayNone'>Page "tarif"</h1>
       <div className='leftContent-buy'>
@@ -120,7 +120,7 @@ const Buy = () => {
           allowFullScreen
         ></iframe>
       </Modal>
-    </Background>
+    </Content>
   );
 };
 
