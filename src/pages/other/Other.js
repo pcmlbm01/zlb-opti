@@ -24,7 +24,7 @@ const Other = () => {
   return (
     <Content pageClassName="content-images-other">
       <Header />
-      <h1>other</h1>
+      <h1>🚧</h1>
       <div className='leftContent-other'>
         {!isModalOpen && (
           <div className='button-play-other' onClick={handlePlayButtonClick}>

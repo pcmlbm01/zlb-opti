@@ -1,6 +1,6 @@
 // Header.js
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Header.scss'; 
 
 const Header = () => {
@@ -11,11 +11,11 @@ const Header = () => {
       </div>
       <nav className="header_navbar">
         <ul>
-          <li><Link to="/home">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/buy">Buy</Link></li>
-          <li><Link to="/result">Result</Link></li>
-          <li><Link to="/other">Other</Link></li>
+          <li><NavLink to="/home" activeClassName="active">Home</NavLink></li>
+          <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
+          <li><NavLink to="/buy" activeClassName="active">Buy</NavLink></li>
+          <li><NavLink to="/result" activeClassName="active">Result</NavLink></li>
+          <li><NavLink to="/other" activeClassName="active">Other</NavLink></li>
         </ul>
       </nav>
     </header>

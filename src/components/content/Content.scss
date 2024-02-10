@@ -4,6 +4,7 @@
     url('../../../src/images/background/backgroundRight.png') right/cover no-repeat, 
     url('../../../src/images/background/background.png') center/cover no-repeat;
     height: 100%;
+    z-index: 2;
 }
 
 .content-container{
@@ -77,6 +78,7 @@
 .rightContent {
   position: relative;
   left: 23%;
+  top: 2%;
   color: white;
   max-width: 990px;
 }

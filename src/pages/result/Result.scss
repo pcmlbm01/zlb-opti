@@ -1,1 +1,33 @@
 /* result.scss */
+.content-images-result {
+    filter: hue-rotate(135deg); 
+}
+
+.content-images-result .listContent a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+    border: 5px solid transparent;
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border: 5px solid transparent;
+    border-image: linear-gradient(-45deg, #3366cc, #33cc99) 1;
+    padding: 50px 208px;
+    letter-spacing: 1px;
+}
+
+.content-images-result .rightContent .list:first-child{
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.content-images-result .rightContent p {
+    font-size: 0.8em;
+    background-color: transparent;
+    color: grey;
+    letter-spacing: -1px;
+}
+

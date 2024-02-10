@@ -3,38 +3,37 @@
   display: flex;
   align-items: center;
   justify-content: space-around; 
-  padding: 50px;
-  background: rgba(0,0,0,0);
+  padding-left: 24%;
+  padding-top: 2%;
 
   .header_logo {
-    margin-left: 25%;
+    padding-right: 75px;
   }
 
   .header_navbar {
     flex: 1; 
-    padding-left: 10%;
     font-weight: 900;
-    font-size: 1.3em;
-    letter-spacing: 2px;
+    font-size: 1.4em;
+    letter-spacing: 3px;
     text-transform: uppercase;
-
-    @media (max-width: 768px) {
-      padding-left: 10px; 
-    }
+    padding: 25px 50px;
+    border-radius: 20px;
 
     ul {
       list-style: none;
       display: flex;
-      margin: 0;
       padding: 0;
 
       li {
-        margin-right: 50px; 
-
+        .active {
+          text-decoration: overline;
+          color: #339999;
+        }
         a {
           text-decoration: none;
           color: white; 
           font-weight: bold;
+          margin: 0 20px;
 
           &:hover {
             color: #339999; 
