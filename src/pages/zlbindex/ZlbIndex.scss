@@ -18,73 +18,25 @@
   filter: hue-rotate(90deg);
 }
 
-* {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-}
-
-[class^="leftContentIcon"] {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  left: 0%;
-  top: -5%;
-  padding: 5px;
-  width: 10%;
-
-  & i {
-    font-size: 20vh;
-    margin: 5px;
-    display: inline-block;
-    opacity: 0.2;
-  }
-}
-
-
-
-.fa-circle-play {
-  cursor: pointer;
-}
-
-.displayNone {
-  display: none;
-}
 
 
 
 
 
-.rightContent * {
-  color: white;
-}
 
 
-.rightContent {
-  position: relative;
-  left: 28%;
-}
-
-.rightContent .lists ul{
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-}
-
-.rightContent .list {
-  margin-right: 50px;
-  display: flex;
-}
-
-.rightContent h1 {
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: xxx-large;
-  margin: 0;
-  margin-top: 20px;
-}
 
 
-.rightContent button {
-  width: 15%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+

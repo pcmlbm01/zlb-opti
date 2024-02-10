@@ -26,13 +26,6 @@ const Result = () => {
       <Header />
       <h1>result</h1>
       <div className='leftContent-result'>
-        <div className='leftContentIcon-result'>
-          <i className="fa-solid fa-bolt"></i>
-          <i className="fa-solid fa-bug-slash"></i>
-          <i className="fa-solid fa-heart"></i>
-          <i className="fa-solid fa-hand"></i>
-          <i className="fa-solid fa-gamepad"></i>
-        </div>
         {!isModalOpen && (
           <div className='button-play-result' onClick={handlePlayButtonClick}>
             <i className="fa-solid fa-circle-play"></i>

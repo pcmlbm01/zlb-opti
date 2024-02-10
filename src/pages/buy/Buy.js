@@ -26,13 +26,6 @@ const Buy = () => {
       <Header />
       <h1 className='displayNone'>Page "tarif"</h1>
       <div className='leftContent-buy'>
-        <div className='leftContentIcon-buy'>
-          <i className="fa-solid fa-bolt"></i>
-          <i className="fa-solid fa-bug-slash"></i>
-          <i className="fa-solid fa-heart"></i>
-          <i className="fa-solid fa-hand"></i>
-          <i className="fa-solid fa-gamepad"></i>
-        </div>
         {!isModalOpen && (
           <div className='button-play-buy' onClick={handlePlayButtonClick}>
             <i className="fa-solid fa-circle-play"></i>
@@ -49,10 +42,10 @@ const Buy = () => {
             <h2 className='displayNone'>Windows</h2>
             <i class="fa-brands fa-windows"></i>
             <div className='listContentPlus'>
-              <p className='service'>Installer un nouveau windows personnalisé* <span>20e</span></p>
+              <p className='service'>Installer un nouveau windows personnalisé* <span>40e</span></p>
             </div>
             <div className='listContent'>
-              <p className='service'>Optimisation de windows existant pour le jeu <span>20e</span></p>
+              <p className='service'>Optimisation de windows existant pour le jeu <span>30e</span></p>
             </div>
           </div>
 
@@ -82,13 +75,13 @@ const Buy = () => {
               <p className='service'>Nettoyer windows <span>20e</span></p>
             </div>
             <div className='listContent'>
-              <p className='service'>Config PC <span>20e</span></p>
+              <p className='service'>Config PC <span><i class="fa-solid fa-arrow-pointer"></i></span></p>
             </div>
             <div className='listContent'>
               <p className='service'>Montage PC <span>20e</span></p>
             </div>
             <div className='listContent'>
-              <p className='service'>Esport/Compétitif <span>20e</span></p>
+              <p className='service'>Conseils/discution <span>20e</span></p>
             </div>
           </div>
 

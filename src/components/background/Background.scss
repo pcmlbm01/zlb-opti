@@ -1,55 +1,14 @@
-.background-images-home {
+.background-images {
   background: 
-    url('../../../src/images/home/backgroundLeft.png') center/cover no-repeat, 
-    url('../../../src/images/home/backgroundRight.png') right/cover no-repeat, 
-    url('../../../src/images/home/background.png') center/cover no-repeat;
-    height: 100%;
-}
-
-.background-images-about {
-  background: 
-    url('../../../src/images/about/backgroundLeft.png') center/cover no-repeat, 
-    url('../../../src/images/about/backgroundRight.png') right/cover no-repeat, 
-    url('../../../src/images/about/background.png') center/cover no-repeat;
-    height: 100%;
-}
-
-.background-images-buy {
-  background: 
-    url('../../../src/images/buy/backgroundLeft.png') center/cover no-repeat, 
-    url('../../../src/images/buy/backgroundRight.png') right/cover no-repeat, 
-    url('../../../src/images/buy/background.png') center/cover no-repeat;
-    height: 100%;
-}
-
-.background-images-other {
-  background: 
-    url('../../../src/images/other/backgroundLeft.png') center/cover no-repeat, 
-    url('../../../src/images/other/backgroundRight.png') right/cover no-repeat, 
-    url('../../../src/images/other/background.png') center/cover no-repeat;
-    height: 100%;
-}
-
-.background-images-result {
-  background: 
-    url('../../../src/images/result/backgroundLeft.png') center/cover no-repeat, 
-    url('../../../src/images/result/backgroundRight.png') right/cover no-repeat, 
-    url('../../../src/images/result/background.png') center/cover no-repeat;
-    height: 100%;
-}
-
-.background-images-error {
-  background: 
-    url('../../../src/images/result/backgroundLeft.png') center/cover no-repeat, 
-    url('../../../src/images/result/backgroundRight.png') right/cover no-repeat, 
-    url('../../../src/images/result/background.png') center/cover no-repeat;
+    url('../../../src/images/background/backgroundLeft.png') center/cover no-repeat, 
+    url('../../../src/images/background/backgroundRight.png') right/cover no-repeat, 
+    url('../../../src/images/background/background.png') center/cover no-repeat;
     height: 100%;
 }
 
 .background-container{
   position: relative;
   overflow: hidden;
-  background-color: #101923; 
   height: 100vh;
 }
 
@@ -63,3 +22,79 @@
   text-orientation: mixed;
   z-index: 999;
 }
+
+
+.background-images .lists i {
+  background: linear-gradient(135deg, #00ff00, #0000ff); 
+}
+
+.background-images .result-button {
+  background-color: transparent;
+  border: 1px solid transparent;  
+  border-image: linear-gradient(-45deg, #00ff00, #0000ff) 1;
+}
+.background-images .result-button:hover {
+  background: linear-gradient(-45deg, #00ff00, #0000ff); 
+}
+
+.background-images .other-button {
+  background-color: transparent;
+  border: 1px solid transparent;  
+  border-image: linear-gradient(135deg, #00ff00, #0000ff) 1;
+}
+.background-images .other-button:hover {
+  background: linear-gradient(135deg, #00ff00, #0000ff); 
+}
+
+
+
+.background-images .listContent p i {
+  font-size: 1em;
+  width: auto;
+  margin-right: 0px;
+}
+
+.background-images .lists i {
+  font-size: 3em;
+  align-self: center;
+  margin-right: 10px;
+  background-clip: text;
+  color: transparent; 
+  width: 60px;
+  text-align: center;
+}
+
+.displayNone {
+  display: none;
+}
+
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.rightContent {
+  position: relative;
+  left: 23%;
+  color: white;
+  max-width: 990px;
+}
+
+.rightContent .list {
+
+  display: flex;
+}
+
+.background-images .lists p {
+
+  margin-left: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid transparent; 
+  border-image: linear-gradient(-45deg, #00ff00, #0000ff) 1;
+  background-color: rgba($color: #000000, $alpha: 0.5);
+  color: lightgray;
+}
+

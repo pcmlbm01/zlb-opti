@@ -1,62 +1,7 @@
 /* about.scss */
-
-.leftContentIcon-about i {
-    background: linear-gradient(-80deg, #ffeb3b, #ff6347); 
-    background-clip: text;
-    color: transparent; 
-}
-
-.leftContent-about .button-play-about {
-    background: linear-gradient(100deg, #ffeb3b, #ff6347 ); 
-    background-clip: text;
-    color: transparent; 
-}
-
-.close-button-about {
-    background: linear-gradient(100deg, #ffeb3b, #ff6347 ); 
-    background-clip: text;
-    color: transparent; 
-}
-
-.background-images-about .modal-content{
-    background-color: #FFA741;
-}
-
-.background-images-about .header_navbar ul li a:hover {
-    color: #FFA741;
-}
-
-.background-images-about .footer-links a:hover {
-    color: #FFA741;
-}
-
-
-
-
-
-
-
-
-.background-images-about .lists p {
-    width: 800px;
-    margin-left: 20px;
-    padding: 12px 20px;
-    font-size: 16px;
-    background-color: transparent;
-    border: 1px solid transparent; 
-    border-image: linear-gradient(100deg, #ffeb3b, #ff6347) 1; 
-    background-color: rgba($color: #000000, $alpha: 0.5);
-    color: lightgray;
-}
-
 .background-images-about .lists bold {
-    color: #FFA741;
-    cursor: pointer;
+    color: grey;
 }
-.background-images-about .fa-arrow-pointer:before {
-    font-size: 0.3em;
-}
-
 
 .background-images-about .lists p:hover {
     color: white;
@@ -66,22 +11,28 @@
     margin: 0;
 }
 
-.background-images-about .list {
-    align-items: center;
+.background-images-about p span {
+    color: white;
 }
 
-.background-images-about .list i {
-    background: #FFA741; 
-    background-clip: text;
-    color: transparent; 
-    font-size: 3em;
+.background-images-about {
+      filter: hue-rotate(45deg); 
+  }
+
+  
+.background-images-about .fa-user:before {
+    display: block;
     width: 60px;
+    display: block;
 }
-
-
-.background-images-about .listContent i {
-    font-size: 1em;
-    width: auto;
+.background-images-about .fa-display:before {
+    display: block;
+    width: 60px;
+    display: block;
 }
-
+.background-images-about .fa-gear:before {
+    display: block;
+    width: 60px;
+    display: block;
+}
 

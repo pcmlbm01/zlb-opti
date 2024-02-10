@@ -26,13 +26,6 @@ const About = () => {
       <Header />
       <h1 className='displayNone'>Page "à propos"</h1>
       <div className='leftContent-about'>
-        <div className='leftContentIcon-about'>
-          <i className="fa-solid fa-bolt"></i>
-          <i className="fa-solid fa-bug-slash"></i>
-          <i className="fa-solid fa-heart"></i>
-          <i className="fa-solid fa-hand"></i>
-          <i className="fa-solid fa-gamepad"></i>
-        </div>
         {!isModalOpen && (
           <div className='button-play-about' onClick={handlePlayButtonClick}>
             <i className="fa-solid fa-circle-play"></i>

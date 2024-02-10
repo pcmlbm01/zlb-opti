@@ -26,13 +26,6 @@ const Other = () => {
       <Header />
       <h1>other</h1>
       <div className='leftContent-other'>
-        <div className='leftContentIcon-other'>
-          <i className="fa-solid fa-bolt"></i>
-          <i className="fa-solid fa-bug-slash"></i>
-          <i className="fa-solid fa-heart"></i>
-          <i className="fa-solid fa-hand"></i>
-          <i className="fa-solid fa-gamepad"></i>
-        </div>
         {!isModalOpen && (
           <div className='button-play-other' onClick={handlePlayButtonClick}>
             <i className="fa-solid fa-circle-play"></i>

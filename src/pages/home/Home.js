@@ -26,15 +26,8 @@ const Home = () => {
       <Header />
       <h1 className='displayNone'>Page d'acceuil</h1>
       <div className='leftContent-home'>
-        <div className='leftContentIcon-home'>
-          <i className="fa-solid fa-bolt"></i>
-          <i className="fa-solid fa-bug-slash"></i>
-          <i className="fa-solid fa-heart"></i>
-          <i className="fa-solid fa-hand"></i>
-          <i className="fa-solid fa-gamepad"></i>
-        </div>
         {!isModalOpen && (
-          <div className='button-play-home' onClick={handlePlayButtonClick}>
+          <div className='button-play' onClick={handlePlayButtonClick}>
             <i className="fa-solid fa-circle-play"></i>
           </div>
         )}
