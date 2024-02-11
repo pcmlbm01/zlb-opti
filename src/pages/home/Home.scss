@@ -1,17 +1,16 @@
 // Define variables
 $primary-color: #3366cc;
 $secondary-color: #33cc99;
-$button-size: 33%;
 
 // Common button styles
 @mixin button-styles1 {
   text-transform: uppercase;
-  padding: 15px;
+  padding: 2vw;
   color: #fff;
   background-color: transparent;
   border: 5px solid transparent;
   border-radius: 20px;
-  font-size: 1.2em;
+  font-size: 1.2vw;
   font-weight: 700;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -37,46 +36,39 @@ $button-size: 33%;
 // Specific button styles
 .content-images-home .cta-button {
   border-image: linear-gradient(135deg, $primary-color, $secondary-color) 1;
-  width: $button-size;
-  margin-left: 20px;
+  width: 21vw;
+  margin-left: 1.7vw;
 }
 
 .content-images-home .detail-button {
   border-image: linear-gradient(-45deg, $primary-color, $secondary-color) 1;
-  width: $button-size;
-  margin-left: 20px;
-}
-
-.content-images-home .result-button,
-.content-images-home .other-button {
-  border-radius: 20px;
-  margin-left: 8.5%;
-  width: 25%;
+  width: 21vw;
+  margin-left: 1.7vw;
 }
 
 // List styles
 .content-images-home .lists {
-  margin: 80px 0 35px 0;
+  margin: 9vh 0 3vh 0;
 
   .list h2 {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 1.1vw;
     font-weight: 400;
     margin: 0;
   }
 
   p {
     margin: 0;
-    font-size: 0.7em;
+    font-size: 0.7vw;
     color: grey;
     padding: 0;
     border: 0;
-    width: 60px;
+    width: 4.5vw;
     background-color: transparent;
   }
 
   .listContent-large p {
-    width: 100px;
+    width: 10vw;
   }
 }
 
@@ -84,18 +76,17 @@ $button-size: 33%;
 .rightContent {
   em {
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.1vw;
     color: #FFFFFF;
     text-shadow: 0 0 2px #FFF, 0 0 15px #33ff99, 0 0 30px #330099;
   }
 
   .list {
-    margin-right: 37px;
     align-items: center;
   }
 
   button {
-    width: 15%;
+    width: 15vw;
   }
 
   .lists ul {
@@ -109,14 +100,15 @@ $button-size: 33%;
     text-transform: uppercase;
     font-size: xxx-large;
     margin: 0;
-    margin-top: 20px;
+    margin-top: 2vh;
+    font-size: 3.1vw;
   }
 }
 
 // Define common button styles
 @mixin button-styles2 {
     text-transform: uppercase;
-    padding: 10px;
+    padding: 1vw;
     color: #fff;
     background-color: transparent;
     border: 1px solid transparent; 
@@ -125,7 +117,7 @@ $button-size: 33%;
     font-weight: 600;
     transition: transform 0.3s ease;
     cursor: pointer;
-    width: 25%;
+    width: 15vw;
   
     &:hover {
       border: transparent;
@@ -141,16 +133,20 @@ $button-size: 33%;
   
   // Specific styles for .result-button
   .content-images-home .result-button {
-    margin-left: 8.5%;
+    margin-left: 6.6vw;
+    font-size: 1vw;
   }
   
   // Specific styles for .other-button
   .content-images-home .other-button {
-    margin-left: 5%;
+    margin-left: 5vw;
+    font-size: 1vw;
   }
   
 
 
   .content-images-home .rightContent {
     left: 29.5%;
-  }
+
+    }
+  

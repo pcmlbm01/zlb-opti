@@ -36,13 +36,6 @@ const Result = () => {
       <div className='rightContent'>
         <div className='lists'>
           <div className="list">
-            <h2 className='displayNone'>Lien</h2>
-            <i className="fa-solid fa-link"></i>
-            <div className='listContent'>
-              <a href="https://drive.google.com/drive/folders/1bZpkdY4PPMgJwhU7mLRkheT49-_rkrdU?usp=drive_link" target="_blank" rel='noreferrer'>Cliquez ici pour ouvrir le récapitulatif</a>
-            </div>
-          </div>
-          <div className="list">
             <h2 className='displayNone'>SiteWeb</h2>
             <i className="fa-solid fa-circle-info"></i>
             <div className='listContent'>
@@ -51,9 +44,16 @@ const Result = () => {
           </div>
           <div className="list">
             <h2 className='displayNone'>SiteWeb</h2>
-            <i class="fa-solid fa-fire-extinguisher"></i>
+            <i className="fa-solid fa-fire-extinguisher"></i>
             <div className='listContent'>
               <p className='low'>Il est à noter que certaines optimisations concurrentes offrent potentiellement de meilleurs résultats mais provoquent souvent une instabilité. <br></br><span>En général, il est important de souligner que la manipulation de votre système d'exploitation ou du matériel peut rendre instable votre PC.</span></p>
+            </div>
+          </div>
+          <div className="list">
+            <h2 className='displayNone'>Lien</h2>
+            <i className="fa-solid fa-link"></i>
+            <div className='listContent'>
+              <a href="https://drive.google.com/drive/folders/1bZpkdY4PPMgJwhU7mLRkheT49-_rkrdU?usp=drive_link" target="_blank" rel='noreferrer'>Cliquez ici pour ouvrir le récapitulatif</a>
             </div>
           </div>
         </div>

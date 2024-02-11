@@ -3,20 +3,23 @@
   display: flex;
   align-items: center;
   justify-content: space-around; 
-  padding-left: 24%;
-  padding-top: 2%;
+  padding-left: 25vw;
 
   .header_logo {
-    padding-right: 75px;
+    padding-right: 4vw;
+  }
+  .header_logo img {
+    height: 7vh;
+    width: auto;
   }
 
   .header_navbar {
     flex: 1; 
     font-weight: 900;
-    font-size: 1.4em;
-    letter-spacing: 3px;
+    font-size: 1.4vw;
+    letter-spacing: 0.2vw;
     text-transform: uppercase;
-    padding: 25px 50px;
+    padding: 5vh 3vw;
     border-radius: 20px;
 
     ul {
@@ -33,7 +36,7 @@
           text-decoration: none;
           color: white; 
           font-weight: bold;
-          margin: 0 20px;
+          margin: 0 3vh;
 
           &:hover {
             color: #339999; 

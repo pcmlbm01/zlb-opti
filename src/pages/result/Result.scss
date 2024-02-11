@@ -8,20 +8,17 @@
     text-transform: uppercase;
     color: #fff;
     background-color: transparent;
-    border: 5px solid transparent;
-    padding: 15px;
-    font-size: 1.2em;
+    padding: 2.5vh 5vw;
+    font-size: 1.2vw;
     font-weight: 700;
     border: 5px solid transparent;
     border-image: linear-gradient(-45deg, #3366cc, #33cc99) 1;
-    padding: 20px 50px;
-    letter-spacing: 1px;
+    letter-spacing: 0.1vw;
 }
 
-.content-images-result .rightContent .list:first-child{
+.content-images-result .rightContent .list:last-child{
     justify-content: center;
-    margin-bottom: 30px;
-    margin-top: 35px;
+    margin-top: 5vh;
 }
 
 .content-images-result .rightContent .low {

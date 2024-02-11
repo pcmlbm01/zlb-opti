@@ -50,18 +50,18 @@
 
 
 .content-images .listContent p i {
-  font-size: 1em;
+  font-size: 1vw;
   width: auto;
   margin-right: 0px;
 }
 
 .content-images .lists i {
-  font-size: 3em;
+  font-size: 3vw;
   align-self: center;
-  margin-right: 10px;
+  margin-right: 1vw;
   background-clip: text;
   color: transparent; 
-  width: 60px;
+  width: 5vw;
   text-align: center;
 }
 
@@ -77,22 +77,20 @@
 
 .rightContent {
   position: relative;
-  left: 23%;
-  top: 2%;
+  left: 25%;
+  top: 0%;
   color: white;
-  max-width: 1000px;
+  max-width: 60vw;
 }
 
 .rightContent .list {
-
   display: flex;
 }
 
 .content-images .lists p {
-
-  margin-left: 20px;
-  padding: 12px 20px;
-  font-size: 16px;
+  margin-bottom: 0.2vh;
+  padding: 4vh 2vw;
+  font-size: 0.9vw;
   background-color: transparent;
   border: 1px solid transparent; 
   border-image: linear-gradient(-45deg, #3366cc, #33cc99) 1;

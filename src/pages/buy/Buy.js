@@ -91,7 +91,7 @@ const Buy = () => {
             <h2 className='displayNone'>Devis</h2>
             <i className="fa-solid fa-clipboard-list"></i>
             <div className='listContent'>
-              <p>assurance/sécurité, comparatif avant apres, bundle possible, <span>*recommandé</span></p>
+              <p className='service'>assurance/sécurité, comparatif avant apres, bundle possible, <span>*recommandé</span></p>
             </div>
           </div>
           

@@ -1,4 +1,8 @@
 /* about.scss */
+.content-images-about {
+    filter: hue-rotate(45deg); 
+}
+
 .content-images-about .lists bold {
     color: grey;
 }
@@ -7,28 +11,12 @@
     color: white;
 }
 
-.content-images-about .lists h2 {
-    margin: 0;
+  .content-images .rightContent [class^="fa-"]:before  {
+    display: block;
+    width: 6vw;
 }
 
-.content-images-about {
-      filter: hue-rotate(45deg); 
-  }
-
-  
-.content-images-about .fa-user:before {
+.content-images .listContent .fa-circle-play:before  {
     display: block;
-    width: 60px;
-    display: block;
+    width: 1vw;
 }
-.content-images-about .fa-display:before {
-    display: block;
-    width: 60px;
-    display: block;
-}
-.content-images-about .fa-gear:before {
-    display: block;
-    width: 60px;
-    display: block;
-}
-
