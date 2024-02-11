@@ -61,10 +61,10 @@ const Buy = () => {
             <h2 className='displayNone'>Autre</h2>
             <i className="fa-solid fa-microchip"></i>
             <div className='listContentPlus'>
-              <p className='service'>Conseil hardware* <span>20€</span></p>
+              <p className='service'>Conseil hardware<span>* 20€</span></p>
             </div>
             <div className='listContent'>
-              <p className='service'>Overclocking <span>20€</span></p>
+              <p className='service'>Overclocking <span>?€</span></p>
             </div>
           </div>
 
@@ -72,7 +72,7 @@ const Buy = () => {
             <h2 className='displayNone'>Aide</h2>
             <i className="fa-solid fa-handshake"></i>
             <div className='listContent'>
-              <p className='service'>Nettoyer windows <span>20€</span></p>
+              <p className='service'>Nettoyer windows <span>10€</span></p>
             </div>
             <div className='listContent'>
               <p className='service'>Config PC <span><i className="fa-solid fa-arrow-pointer"></i></span></p>
