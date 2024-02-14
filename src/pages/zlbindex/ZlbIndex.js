@@ -2,12 +2,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './ZlbIndex.scss';
+import indexLogo from "../../images/indexLogo.png"
 
 const ZlbIndex = () => {
   return (
-    <Link to="/home" className="container">
+    <Link to="/zlb-opti/home" className="container">
       <h1 className='displayNone'>ZLBopti</h1>
-      <img className="logo" src="/images/indexLogo.png" alt="Index Logo" />
+      <img className="logo" src={indexLogo} alt="Index Logo" />
     </Link>
   );
 };
