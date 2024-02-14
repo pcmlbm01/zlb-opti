@@ -53,7 +53,7 @@ const Result = () => {
             <h2 className='displayNone'>Lien</h2>
             <i className="fa-solid fa-link"></i>
             <div className='listContent'>
-              <a href="https://drive.google.com/drive/folders/1bZpkdY4PPMgJwhU7mLRkheT49-_rkrdU?usp=drive_link" target="_blank" rel='noreferrer'>Cliquez ici pour ouvrir le récapitulatif</a>
+              <a href="https://drive.google.com/drive/folders/1bZpkdY4PPMgJwhU7mLRkheT49-_rkrdU?usp=drive_link" target="_blank" rel='noreferrer'>Cliquez ici pour ouvrir les résultats</a>
             </div>
           </div>
         </div>

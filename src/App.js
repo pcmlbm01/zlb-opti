@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<ZlbIndex />} />
+        <Route path="/zlb-opti" element={<ZlbIndex />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/result" element={<Result />} />

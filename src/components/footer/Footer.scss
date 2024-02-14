@@ -2,7 +2,7 @@
 .footer-container {
   position: fixed;
   bottom: 0%;
-  left: 20vw;
+  left: 19vw;
   width: auto;
   display: flex;
   align-items: center;
@@ -11,8 +11,8 @@
   .footer-links {
     flex: 1;
     font-weight: 900;
-    font-size: 1.4vw;
-    letter-spacing: 0.2vw;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
     text-transform: uppercase;
     padding: 8vh 4vw;
     border-radius: 20px;
@@ -21,7 +21,7 @@
       text-decoration: none;
       color: white;
       font-weight: bold;
-      margin: 0 3vh;
+      margin: 0 5.5vh;
 
       &:hover {
         color: #339999;

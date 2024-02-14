@@ -55,6 +55,12 @@ $secondary-color: #33cc99;
     font-size: 1.1vw;
     font-weight: 400;
     margin: 0;
+    padding-right: 1vw;
+  }
+
+  .list i {
+    margin: 0;
+    padding: 0.2vw;
   }
 
   p {
@@ -68,7 +74,7 @@ $secondary-color: #33cc99;
   }
 
   .listContent-large p {
-    width: 10vw;
+    font-size: 0.66vw;
   }
 }
 

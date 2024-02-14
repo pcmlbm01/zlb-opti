@@ -51,7 +51,7 @@ const Home = () => {
               <i className="fa-solid fa-arrow-up-wide-short"></i>
               <div className='listContent-large'>
                 <h2>Performance</h2>
-                <p>Gagner en image par seconde</p>
+                <p>Libère le plein potentiel</p>
               </div>
             </li>
             <li className='list'>
