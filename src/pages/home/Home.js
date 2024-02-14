@@ -38,10 +38,10 @@ const Home = () => {
           <h1>Optimisation <em>Esport Ready</em></h1>
         </div>
         <div className='cta-container'>
-          <button className='cta-button' onClick={() => window.location.href='/buy'}>
+          <button className='cta-button' onClick={() => window.location.href='/zlb-opti/buy'}>
             Acheter
           </button>
-          <button className='detail-button' onClick={() => window.location.href='/about'}>
+          <button className='detail-button' onClick={() => window.location.href='/zlb-opti/about'}>
             En savoir plus
           </button>
         </div>
@@ -78,10 +78,10 @@ const Home = () => {
           </ul>
         </div>
         <div>
-          <button className='result-button' onClick={() => window.location.href='/result'}>
+          <button className='result-button' onClick={() => window.location.href='/zlb-opti/result'}>
             Résultats et avis
           </button>
-          <button className='other-button' onClick={() => window.location.href='/other'}>
+          <button className='other-button' onClick={() => window.location.href='/zlb-opti/other'}>
             Mes sujets et autres
           </button>
         </div>
