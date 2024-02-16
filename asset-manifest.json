@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zlb-opti/static/css/main.202c9259.css",
-    "main.js": "/zlb-opti/static/js/main.0aa54b19.js",
+    "main.css": "/zlb-opti/static/css/main.28fea4b4.css",
+    "main.js": "/zlb-opti/static/js/main.e88d1f7f.js",
     "static/js/592.bbf164f4.chunk.js": "/zlb-opti/static/js/592.bbf164f4.chunk.js",
     "static/media/indexBackground.png": "/zlb-opti/static/media/indexBackground.8e96d7453ec9edb4abe9.png",
     "static/media/background.png": "/zlb-opti/static/media/background.c27582632751bace7cfa.png",
@@ -9,12 +9,12 @@
     "static/media/backgroundRight.png": "/zlb-opti/static/media/backgroundRight.e71a1836a3d51aba6417.png",
     "static/media/indexLogo.png": "/zlb-opti/static/media/indexLogo.9da02651962774ebaef2.png",
     "index.html": "/zlb-opti/index.html",
-    "main.202c9259.css.map": "/zlb-opti/static/css/main.202c9259.css.map",
-    "main.0aa54b19.js.map": "/zlb-opti/static/js/main.0aa54b19.js.map",
+    "main.28fea4b4.css.map": "/zlb-opti/static/css/main.28fea4b4.css.map",
+    "main.e88d1f7f.js.map": "/zlb-opti/static/js/main.e88d1f7f.js.map",
     "592.bbf164f4.chunk.js.map": "/zlb-opti/static/js/592.bbf164f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.202c9259.css",
-    "static/js/main.0aa54b19.js"
+    "static/css/main.28fea4b4.css",
+    "static/js/main.e88d1f7f.js"
   ]
 }
