@@ -157,3 +157,73 @@ $secondary-color: #33cc99;
     left: 29.5%;
     }
   
+
+    @media only screen and (max-width: 767px), (max-aspect-ratio: 10/9) {
+      .content-images-home h1 {
+        font-size: 5vw;
+      }
+      .content-images-home .cta-button,
+      .content-images-home .detail-button
+      {
+        width: 31vw;
+        margin-left: 1.5vw;
+        padding: 3vh 1.5vw;
+        font-size: 2vw;
+      }
+      .content-images-home .rightContent {
+        left: 12.3%;
+        }
+        .content-images-home .rightContent .lists ul {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 1.5vw;
+          margin-left: 15%;
+        }
+        .content-images-home .rightContent .lists .list p {
+        font-size: 1.3vw;
+        width: auto;
+        margin-top: -1vh;
+      }
+      .content-images-home .rightContent .lists .list h2 {
+        font-size: 3vw;
+      }
+      .content-images-home .lists .list i {
+        font-size: 5vw;
+        width: 7.5vw;
+      }
+      .content-images-home .list {
+        margin: 1vh 2vw;
+      }
+      .content-images-home .rightContent .lists {
+        max-width: 50%;
+      }
+      .content-images-home .result-button,
+      .content-images-home .other-button {
+        width: 27vw;
+        display: inline-block;
+        padding: 3vh 1.5vw;
+        text-align: center;
+        font-size: 2vw;
+      }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+      .content-images-home .rightContent .lists .list p {
+        font-size: 2.5vw;
+        margin: 0;
+        height: 50%;
+      }
+      .content-images-home .rightContent .lists .list i {
+        width: 10vw;
+      }
+      .content-images-home .rightContent .lists ul {
+        margin-left: 10%;
+      }
+      .content-images-home .result-button,
+      .content-images-home .other-button,
+      .content-images-home .cta-button,
+      .content-images-home .detail-button {
+        font-size: 3vw;
+      }
+    }

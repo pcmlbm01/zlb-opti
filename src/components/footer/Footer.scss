@@ -29,3 +29,31 @@
     }
   }
 }
+
+.footer-links .icon {
+  display: none;
+}
+
+.footer-links .text {
+  display: inline;
+}
+
+@media only screen and (max-width: 767px), (max-aspect-ratio: 10/9) {
+  .footer-links .icon {
+    display: inline;
+    font-size: 3vw;
+  }
+  .footer-links .text {
+    display: none;
+  }
+    .footer-container .footer-links {
+    padding: 2vh 1vw;
+  }
+  .footer-container .footer-links a {
+    margin: 0 4.5vw;
+  }
+  .footer-container {
+    left: 12vw;
+    bottom: 3vh;
+  }
+}

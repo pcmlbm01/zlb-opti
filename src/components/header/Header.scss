@@ -46,3 +46,35 @@
     }
   }
 }
+
+
+.nav-link .icon {
+  display: none;
+}
+
+.nav-link .text {
+  display: inline; 
+}
+
+@media only screen and (max-width: 767px), (max-aspect-ratio: 10/9) {
+  .nav-link .icon {
+    display: inline;
+    font-size: 3vw;
+  }
+  .nav-link .text {
+    display: none; 
+  }
+  .header_logo {
+    display: none;
+  }
+  .header {
+    padding-left: 0vw;
+    position: relative;
+    left: 22.5%;
+  }
+  .header li {
+    width: 10vw;
+  }
+}
+
+

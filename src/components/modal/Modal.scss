@@ -26,7 +26,7 @@
 }
 
 
-[class^="leftContent"] [class^="button-play"] {
+[className^="leftContent"] [className^="button-play"] {
   position: absolute;
   left: 12%;
   top: 41.1%;
@@ -41,7 +41,7 @@
   }
 }
 
-[class^="close-button"] {
+[className^="close-button"] {
   position: absolute;
   left: 12%;
   top: 41.1%;
@@ -59,4 +59,11 @@
 
 .fa-circle-play {
   cursor: pointer;
+}
+
+
+@media only screen and (max-width: 767px), (max-aspect-ratio: 10/9) {
+  .fa-circle-play {
+    display: none;
+  }
 }

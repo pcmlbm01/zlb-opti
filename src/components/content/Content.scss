@@ -72,7 +72,6 @@
 
 * {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
 }
 
 .rightContent {
@@ -101,4 +100,19 @@
 
 .content-images p span {
   color: white;
+}
+
+@media only screen and (max-width: 767px), (max-aspect-ratio: 10/9) {
+  .content-images .lists p {
+    font-size: 2vh;
+  }
+  .rightContent {
+    left: 2%;
+    max-width: 93%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .content-images .lists p {
+    font-size: 1.6vh;
+  }
 }

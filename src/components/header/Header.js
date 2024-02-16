@@ -12,11 +12,32 @@ const Header = () => {
       </div>
       <nav className="header_navbar">
         <ul>
-          <li><NavLink to="/zlb-opti/home" activeclassname="active">Accueil</NavLink></li>
-          <li><NavLink to="/zlb-opti/about" activeclassname="active">À propos</NavLink></li>
-          <li><NavLink to="/zlb-opti/buy" activeclassname="active">Tarif</NavLink></li>
-          <li><NavLink to="/zlb-opti/result" activeclassname="active">Resultat</NavLink></li>
-          <li><NavLink to="/zlb-opti/other" activeclassname="active">Autre</NavLink></li>
+          <li>
+            <NavLink to="/zlb-opti/home" className="nav-link" activeclassname="active">
+              <span className="icon"><i class="fa-solid fa-house"></i></span>
+              <span className="text">Accueil</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/zlb-opti/about" className="nav-link" activeclassname="active">
+              <span className="icon"><i className="fa-solid fa-circle-info"></i></span>
+              <span className="text">À propos</span>
+            </NavLink></li>
+          <li>
+            <NavLink to="/zlb-opti/buy" className="nav-link" activeclassname="active">
+              <span className="icon"><i className="fa-regular fa-credit-card"></i></span>
+              <span className="text">Tarif</span>
+            </NavLink></li>
+          <li>
+            <NavLink to="/zlb-opti/result" className="nav-link" activeclassname="active">
+              <span className="icon"><i className="fa-solid fa-square-poll-vertical"></i></span>
+              <span className="text">Resultat</span>
+            </NavLink></li>
+          <li>
+            <NavLink to="/zlb-opti/other" className="nav-link" activeclassname="active">
+              <span className="icon"><i className="fa-solid fa-gears"></i></span>
+              <span className="text">Autre</span>
+            </NavLink></li>
         </ul>
       </nav>
     </header>
