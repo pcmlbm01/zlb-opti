@@ -39,10 +39,10 @@ const Home = () => {
           <h1>Optimisation <em>Esport Ready</em></h1>
         </div>
         <div className='cta-container'>
-          <Link to="/buy" className='cta-button'>
+          <Link to="/zlb-opti/buy" className='cta-button'>
             Acheter
           </Link>
-          <Link to="/about" className='detail-button'>
+          <Link to="/zlb-opti/about" className='detail-button'>
             En savoir plus
           </Link>
         </div>
@@ -79,12 +79,12 @@ const Home = () => {
           </ul>
         </div>
         <div>
-          <button className='result-button' onClick={() => window.location.href='/result'}>
+          <Link to="/zlb-opti/buy" className='result-button'>
             Résultats et avis
-          </button>
-          <button className='other-button' onClick={() => window.location.href='/other'}>
+          </Link>
+          <Link to="/zlb-opti/about" className='other-button'>
             Mes sujets et autres
-          </button>
+          </Link>
         </div>
       </div>
       <Footer />

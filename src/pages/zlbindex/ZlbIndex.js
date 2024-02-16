@@ -6,7 +6,7 @@ import indexLogo from "../../images/indexLogo.png"
 
 const ZlbIndex = () => {
   return (
-    <Link to="/home" className="container">
+    <Link to="/zlb-opti/home" className="container">
       <h1 className='displayNone'>ZLBopti</h1>
       <img className="logo" src={indexLogo} alt="Index Logo" />
     </Link>
