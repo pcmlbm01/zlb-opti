@@ -1,5 +1,6 @@
 // home.js
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 import Content from '../../components/content/Content';
@@ -38,12 +39,12 @@ const Home = () => {
           <h1>Optimisation <em>Esport Ready</em></h1>
         </div>
         <div className='cta-container'>
-          <button className='cta-button' onClick={() => window.location.href='/zlb-opti/buy'}>
+          <Link to="/buy" className='cta-button'>
             Acheter
-          </button>
-          <button className='detail-button' onClick={() => window.location.href='/zlb-opti/about'}>
+          </Link>
+          <Link to="/about" className='detail-button'>
             En savoir plus
-          </button>
+          </Link>
         </div>
         <div className='lists'>
           <ul>
@@ -78,10 +79,10 @@ const Home = () => {
           </ul>
         </div>
         <div>
-          <button className='result-button' onClick={() => window.location.href='/zlb-opti/result'}>
+          <button className='result-button' onClick={() => window.location.href='/result'}>
             Résultats et avis
           </button>
-          <button className='other-button' onClick={() => window.location.href='/zlb-opti/other'}>
+          <button className='other-button' onClick={() => window.location.href='/other'}>
             Mes sujets et autres
           </button>
         </div>
