@@ -5,7 +5,7 @@ $secondary-color: #33cc99;
 // Common button styles
 @mixin button-styles1 {
   text-transform: uppercase;
-  padding: 2vw;
+  padding: 1.5vw;
   color: #fff;
   background-color: transparent;
   border: 5px solid transparent;
@@ -17,12 +17,12 @@ $secondary-color: #33cc99;
 
   &:hover:first-child {
     border: transparent;
-    transform: scale(1.3);
+    transform: scale(1.2);
     background: linear-gradient(135deg, $primary-color, $secondary-color);
   }
   &:hover {
     border: transparent;
-    transform: scale(1.3);
+    transform: scale(1.2);
     background: linear-gradient(-45deg, $primary-color, $secondary-color);
   }
 }
@@ -31,19 +31,18 @@ $secondary-color: #33cc99;
 .content-images-home .cta-button,
 .content-images-home .detail-button {
   @include button-styles1;
+  text-decoration: none;
+  display: inline-block;
 }
 
 // Specific button styles
-.content-images-home .cta-button {
+.content-images-home .cta-button,
+.content-images-home .detail-button
+ {
   border-image: linear-gradient(135deg, $primary-color, $secondary-color) 1;
-  width: 21vw;
-  margin-left: 1.7vw;
-}
-
-.content-images-home .detail-button {
-  border-image: linear-gradient(-45deg, $primary-color, $secondary-color) 1;
-  width: 21vw;
-  margin-left: 1.7vw;
+  width: 18vw;
+  margin-left: 1.2vw;
+  text-align: center;
 }
 
 // List styles
@@ -91,8 +90,11 @@ $secondary-color: #33cc99;
     align-items: center;
   }
 
-  button {
+  button,
+  .result-button,
+  .other-button {
     width: 15vw;
+    text-decoration: none;
   }
 
   .lists ul {
@@ -114,7 +116,7 @@ $secondary-color: #33cc99;
 // Define common button styles
 @mixin button-styles2 {
     text-transform: uppercase;
-    padding: 1vw;
+    padding: 1.5vh 3vw;
     color: #fff;
     background-color: transparent;
     border: 1px solid transparent; 
@@ -127,7 +129,7 @@ $secondary-color: #33cc99;
   
     &:hover {
       border: transparent;
-      transform: scale(1.3);
+      transform: scale(1.2);
     }
   }
   
@@ -139,13 +141,13 @@ $secondary-color: #33cc99;
   
   // Specific styles for .result-button
   .content-images-home .result-button {
-    margin-left: 6.6vw;
+    margin-left: 5vw;
     font-size: 1vw;
   }
   
   // Specific styles for .other-button
   .content-images-home .other-button {
-    margin-left: 3.8vw;
+    margin-left: 5vw;
     font-size: 1vw;
   }
   
@@ -153,6 +155,5 @@ $secondary-color: #33cc99;
 
   .content-images-home .rightContent {
     left: 29.5%;
-
     }
   

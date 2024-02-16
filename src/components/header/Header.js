@@ -12,11 +12,11 @@ const Header = () => {
       </div>
       <nav className="header_navbar">
         <ul>
-          <li><NavLink to="/zlb-opti/home" activeClassName="active">Accueil</NavLink></li>
-          <li><NavLink to="/zlb-opti/about" activeClassName="active">À propos</NavLink></li>
-          <li><NavLink to="/zlb-opti/buy" activeClassName="active">Tarif</NavLink></li>
-          <li><NavLink to="/zlb-opti/result" activeClassName="active">Resultat</NavLink></li>
-          <li><NavLink to="/zlb-opti/other" activeClassName="active">Autre</NavLink></li>
+          <li><NavLink to="/zlb-opti/home" activeclassname="active">Accueil</NavLink></li>
+          <li><NavLink to="/zlb-opti/about" activeclassname="active">À propos</NavLink></li>
+          <li><NavLink to="/zlb-opti/buy" activeclassname="active">Tarif</NavLink></li>
+          <li><NavLink to="/zlb-opti/result" activeclassname="active">Resultat</NavLink></li>
+          <li><NavLink to="/zlb-opti/other" activeclassname="active">Autre</NavLink></li>
         </ul>
       </nav>
     </header>
